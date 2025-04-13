@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+import leaf from "../../Assets/Projects/ToDoList.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/WeatherApp.png";
 import chatify from "../../Assets/Projects/HPP.png";
@@ -56,12 +56,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={leaf}
+              imgPath={leaf}
               isBlog={false}
               title="To-Do-List"
               description="To-Do List App – Developed a dynamic to-do list using HTML, CSS, and JavaScript with task addition, deletion, and local storage functionality."
-              vercelLink="https://to-do-list-puce-beta.vercel.app/"
-              // demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://github.com/Trapti12Sharma/To-do-List"
+              demoLink="https://to-do-list-puce-beta.vercel.app/"
             />
           </Col>
 
