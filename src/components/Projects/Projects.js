@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import editor from "../../Assets/Projects/WeatherApp.png";
 import chatify from "../../Assets/Projects/HPP.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/Expenses.png";
@@ -45,12 +45,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              // imgPath={editor}
+              imgPath={editor}
               isBlog={false}
               title="Weather Website"
               description="Weather Website – Developed a weather forecasting web app using HTML, CSS, and JavaScript to display real-time weather updates via API integration."
               ghLink="https://github.com/Trapti12Sharma/Weather-App"
-              // demoLink="https://editor.soumya-jit.tech/"              
+              demoLink="https://vercel.com/trapti12sharmas-projects/weather-app"              
             />
           </Col>
 
