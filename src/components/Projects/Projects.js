@@ -6,8 +6,10 @@ import leaf from "../../Assets/Projects/ToDoList.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/WeatherApp.png";
 import chatify from "../../Assets/Projects/HPP.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import suicide from "../../Assets/Projects/YatraWithUs.png";
 import bitsOfCode from "../../Assets/Projects/Expenses.png";
+// import suicide from "../../Assets/Projects/YatraWithus.png";
+
 
 function Projects() {
   return (
@@ -64,6 +66,18 @@ function Projects() {
               demoLink="https://to-do-list-puce-beta.vercel.app/"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={suicide}
+              isBlog={false}
+              title="YatraWithUs"
+              description="Discover hassle-free travel with YatraWithUs — a sleek and modern bus ticket booking app built using React."
+              ghLink="https://github.com/Trapti12Sharma/YatraWithUs2"
+              demoLink="https://yatra-with-us2.vercel.app/"
+            />
+          </Col>
+
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
