@@ -14,7 +14,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Trapti Sharma</h3>
+          <h3>Designed and Developed by Vaibhav Sharma</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} TS</h3>
@@ -23,20 +23,20 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/Trapti12Sharma"
+                href="https://github.com/codewithvaibhavv"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillGithub />
               </a>
             </li>
-            
+
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/trapti-sharma12/"
+                href="https://www.linkedin.com/in/codewithvaibhav/"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedinIn />
@@ -46,7 +46,7 @@ function Footer() {
               <a
                 href="https://www.instagram.com/trapti._.sharma"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiFillInstagram />

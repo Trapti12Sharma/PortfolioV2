@@ -24,7 +24,7 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, C++, Javascript . </b>
+                <b className="purple"> .Net, C++, Javascript . </b>
               </i>
               <br />
               <br />
@@ -39,7 +39,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">JQuery</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -67,7 +67,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/Trapti12Sharma"
+                  href="https://github.com/codewithvaibhavv"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,10 +75,10 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-             
+
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/trapti-sharma12/"
+                  href="https://www.linkedin.com/in/codewithvaibhav/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
